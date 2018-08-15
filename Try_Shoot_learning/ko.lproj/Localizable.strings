@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Try_Shoot_learning
+
+  Created by irons on 2015/8/12.
+  Copyright (c) 2015年 irons. All rights reserved.
+*/
+
+"InfinityMode" = "무한 모드";
+"BreakthroughMode" = "여유 모드";
+"TimeLimitMode" = "제한된 모드";

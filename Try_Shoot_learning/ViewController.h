@@ -8,7 +8,28 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import "GameOverViewController.h"
+#import "GameWinViewController.h"
 
-@interface ViewController : UIViewController
+@import iAd;
+
+extern const int NORMAL_MODE;
+extern const int BREAK_GAME_MODE;
+extern const int TIME_LIMIT_MODE;
+
+@protocol gameDelegate <NSObject>
+
+-(void)showGameOver;
+-(void)showRankView;
+-(void)restartGame;
+-(void)showGameWin;
+
+@end
+
+@protocol pauseGameDelegate <NSObject>
+- (void)pauseGame;
+@end
+
+@interface ViewController : UIViewController<gameDelegate,pauseGameDelegate,ADBannerViewDelegate>
 
 @end

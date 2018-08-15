@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B592A9121AFAE1A10014FC4C"
-               BuildableName = "Try_Shoot_learning.app"
+               BuildableName = "ShootLearning.app"
                BlueprintName = "Try_Shoot_learning"
                ReferencedContainer = "container:Try_Shoot_learning.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B592A9121AFAE1A10014FC4C"
-            BuildableName = "Try_Shoot_learning.app"
+            BuildableName = "ShootLearning.app"
             BlueprintName = "Try_Shoot_learning"
             ReferencedContainer = "container:Try_Shoot_learning.xcodeproj">
          </BuildableReference>
@@ -58,11 +58,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B592A9121AFAE1A10014FC4C"
-            BuildableName = "Try_Shoot_learning.app"
+            BuildableName = "ShootLearning.app"
             BlueprintName = "Try_Shoot_learning"
             ReferencedContainer = "container:Try_Shoot_learning.xcodeproj">
          </BuildableReference>
@@ -76,11 +77,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B592A9121AFAE1A10014FC4C"
-            BuildableName = "Try_Shoot_learning.app"
+            BuildableName = "ShootLearning.app"
             BlueprintName = "Try_Shoot_learning"
             ReferencedContainer = "container:Try_Shoot_learning.xcodeproj">
          </BuildableReference>

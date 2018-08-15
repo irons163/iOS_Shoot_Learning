@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Try_Shoot_learning
+
+  Created by irons on 2015/8/12.
+  Copyright (c) 2015年 irons. All rights reserved.
+*/
+
+"InfinityMode" = "無限模式";
+"BreakthroughMode" = "過關模式";
+"TimeLimitMode" = "限時模式";
