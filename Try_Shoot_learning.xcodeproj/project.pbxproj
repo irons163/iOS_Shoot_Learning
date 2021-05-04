@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B55A64271B7B318C00280B92 /* am_white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B55A64261B7B318C00280B92 /* am_white.mp3 */; };
 		B55A642C1B7B38DC00280B92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55A642E1B7B38DC00280B92 /* Localizable.strings */; };
+		B56E0C22263FE62200648B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56E0C21263FE62200648B87 /* LaunchScreen.storyboard */; };
 		B57312891B5E572C00307D50 /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312881B5E572C00307D50 /* Cloud.m */; };
 		B573128C1B5F159700307D50 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = B573128B1B5F159700307D50 /* Bullet.m */; };
 		B573128E1B5F27A100307D50 /* bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = B573128D1B5F27A100307D50 /* bullets.png */; };
@@ -112,6 +113,7 @@
 		B55A64371B7B39F200280B92 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		B55A64381B7B39F200280B92 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B55A64391B7B39F200280B92 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B56E0C21263FE62200648B87 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57312871B5E572C00307D50 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
 		B57312881B5E572C00307D50 /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
 		B573128A1B5F159700307D50 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				B592A9271AFAE1A10014FC4C /* AppDelegate.h */,
 				B592A9281AFAE1A10014FC4C /* AppDelegate.m */,
 				B592A92A1AFAE1A10014FC4C /* Main.storyboard */,
+				B56E0C21263FE62200648B87 /* LaunchScreen.storyboard */,
 				B57312ED1B6359C200307D50 /* GameOverViewController.h */,
 				B57312EE1B6359C200307D50 /* GameOverViewController.m */,
 				B57314651B74313100307D50 /* GameWinViewController.h */,
@@ -422,6 +425,7 @@
 				TargetAttributes = {
 					B592A9121AFAE1A10014FC4C = {
 						DevelopmentTeam = T6VV6T753H;
+						ProvisioningStyle = Manual;
 					};
 					B592A93A1AFAE1A10014FC4C = {
 						TestTargetID = B592A9121AFAE1A10014FC4C;
@@ -433,6 +437,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				ja,
@@ -462,6 +467,7 @@
 				B592A96B1AFB0F450014FC4C /* s7.png in Resources */,
 				B57312951B60672800307D50 /* bgFood-hd.png in Resources */,
 				B573129B1B60679B00307D50 /* c3-hd.png in Resources */,
+				B56E0C22263FE62200648B87 /* LaunchScreen.storyboard in Resources */,
 				B57314641B742AC300307D50 /* btn_Menu-hd.png in Resources */,
 				B573128E1B5F27A100307D50 /* bullets.png in Resources */,
 				B592A9841AFB11A20014FC4C /* bg04.jpg in Resources */,
@@ -644,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -676,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -687,13 +693,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.2.2105030;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Try_Shoot_learning/Try_Shoot_learning-Prefix.pch";
 				INFOPLIST_FILE = "Try_Shoot_learning/Try_Shoot_learning-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_NAME = ShootLearning;
 				PROVISIONING_PROFILE = "d56fb616-2f4f-4dcd-a6d7-8d1e00f83cd7";
+				PROVISIONING_PROFILE_SPECIFIER = ShootLearningProfile;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -705,13 +716,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.2.2105030;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Try_Shoot_learning/Try_Shoot_learning-Prefix.pch";
 				INFOPLIST_FILE = "Try_Shoot_learning/Try_Shoot_learning-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_NAME = ShootLearning;
 				PROVISIONING_PROFILE = "d56fb616-2f4f-4dcd-a6d7-8d1e00f83cd7";
+				PROVISIONING_PROFILE_SPECIFIER = ShootLearningProfile;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
